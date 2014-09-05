@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>XWiki</web>
+<name>PiwikCode</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent>XWiki.WebHome</parent>
+<creator>XWiki.Admin</creator>
+<author>XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>XWiki.Admin</contentAuthor>
+<creationDate>1388530800000</creationDate>
+<date>1388530800000</date>
+<contentUpdateDate>1388530800000</contentUpdateDate>
+<version>1.1</version>
+<title>$services.localization.render('admin.piwik')</title>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>true</hidden><attachment>
+<filename>piwik.svg</filename>
+<filesize>2290</filesize>
+<author>XWiki.Admin</author>
+<date>1409918483000</date>
+<version>1.1</version>
+<comment></comment><content>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJM
+SUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3Mv
+U1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4
+bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3
+LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0aD0iMTcwLjY2NnB4IiBo
+ZWlnaHQ9IjQ1LjcwNHB4IiB2aWV3Qm94PSIwIDAgMTcwLjY2NiA0NS43MDQiIGVuYWJsZS1iYWNr
+Z3JvdW5kPSJuZXcgMCAwIDE3MC42NjYgNDUuNzA0IgoJIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8
+cGF0aCBmaWxsPSIjRDQyQTFGIiBkPSJNMTA2Ljk5NSwxLjAxNmMtMi41Ny0wLjczOS01LjI1MSww
+Ljc1MS01Ljk4NywzLjMyOWwtNS41MzIsMTkuMzUxTDg5Ljk0Myw0LjM0NQoJYy0wLjU5Mi0yLjA3
+MS0yLjQ0MS0zLjQxNy00LjQ3Ny0zLjQ5MmMtMC4xMDMtMC4wMDktMC4yMDMtMC4wMDQtMC4zMDYt
+MC4wMDdjLTAuMTAyLDAuMDAzLTAuMjAzLTAuMDAzLTAuMzA2LDAuMDA3CgljLTIuMDM2LDAuMDc1
+LTMuODg1LDEuNDIxLTQuNDc3LDMuNDkybC01LjUwOSwxOS4yN2wtNS41MDktMTkuMjdjLTAuNzM3
+LTIuNTc4LTMuNDE4LTQuMDY4LTUuOTg3LTMuMzI5CgljLTIuNTcsMC43MzktNC4wNTYsMy40Mjgt
+My4zMTksNi4wMDVsMTAuMDc1LDM1LjI0YzAuNTgzLDIuMDM4LDIuMzg0LDMuMzc2LDQuMzgyLDMu
+NDljMC4xMjEsMC4wMTEsMC4yMzksMC4wMDYsMC4zNTksMC4wMDgKCWMwLjEyLTAuMDAyLDAuMjM4
+LDAuMDA0LDAuMzU5LTAuMDA4YzEuOTk4LTAuMTE0LDMuNzk5LTEuNDUxLDQuMzgyLTMuNDlsNS41
+NTEtMTkuNDE2bDUuNTUxLDE5LjQxNgoJYzAuNTg4LDIuMDU2LDIuNDE2LDMuMzk4LDQuNDM0LDMu
+NDkxYzAuMTExLDAuMDEsMC4yMTksMC4wMDUsMC4zMywwLjAwN2MwLjExLTAuMDAzLDAuMjE5LDAu
+MDAzLDAuMzMtMC4wMDcKCWMyLjAxOS0wLjA5MywzLjg0Ni0xLjQzNSw0LjQzNC0zLjQ5MWwxMC4w
+NzUtMzUuMjRDMTExLjA1LDQuNDQ0LDEwOS41NjQsMS43NTYsMTA2Ljk5NSwxLjAxNnoiLz4KPHBh
+dGggZmlsbD0iI0Q0MkExRiIgZD0iTTExNi41MDIsNDAuNDRjMCwyLjk3MiwyLjM1LDUuMzIyLDUu
+MzIyLDUuMzIyYzIuOTcyLDAsNS4zMjItMi4zNSw1LjMyMi01LjMyMlY2LjE0NwoJYzAtMi45NzIt
+Mi4zNS01LjMyMi01LjMyMi01LjMyMmMtMi45NzIsMC01LjMyMiwyLjM1LTUuMzIyLDUuMzIyVjQw
+LjQ0eiIvPgo8cGF0aCBmaWxsPSIjRDQyQTFGIiBkPSJNNDMuMzM0LDQwLjQ1N2MwLDIuOTcyLDIu
+MzUsNS4zMjIsNS4zMjIsNS4zMjJjMi45NzIsMCw1LjMyMi0yLjM1LDUuMzIyLTUuMzIyVjYuMTY0
+CgljMC0yLjk3Mi0yLjM1LTUuMzIyLTUuMzIyLTUuMzIyYy0yLjk3MiwwLTUuMzIyLDIuMzUtNS4z
+MjIsNS4zMjJWNDAuNDU3eiIvPgo8cGF0aCBmaWxsPSIjRDQyQTFGIiBkPSJNMTU1LjQwNiwyMy4x
+NTZsMTMuNzc5LTEzLjc3OWMxLjk3NC0xLjk3NCwxLjk3NC01LjA5NywwLTcuMDcxYy0xLjk3NC0x
+Ljk3NC01LjA5Ny0xLjk3NC03LjA3MSwwCglsLTE2LjQ0OCwxNi40NDhWNi4xNDdjMC0yLjk3Mi0y
+LjM1LTUuMzIyLTUuMzIyLTUuMzIyYy0yLjk3MiwwLTUuMzIyLDIuMzUtNS4zMjIsNS4zMjJWNDAu
+NDRjMCwyLjk3MiwyLjM1LDUuMzIyLDUuMzIyLDUuMzIyCgljMi45NzIsMCw1LjMyMi0yLjM1LDUu
+MzIyLTUuMzIydi03LjU0NGwyLjY2OS0yLjY2OWwxMy42MTgsMTMuODU3YzEuOTU3LDEuOTkyLDUu
+MDc5LDIuMDE5LDcuMDcxLDAuMDYyCgljMS45OTItMS45NTcsMi4wMTktNS4wNzksMC4wNjItNy4w
+NzFMMTU1LjQwNiwyMy4xNTZ6Ii8+CjxwYXRoIGZpbGw9IiNENDJBMUYiIGQ9Ik0zNy4yOTIsMTYu
+ODE2YzAtOC41OC02Ljc4Ny0xNS41NTctMTUuMjgzLTE1LjlsMC4wMDctMC4wMzNINS4zMjJDMi4z
+NSwwLjg4MywwLDMuMjMzLDAsNi4yMDV2MzQuMTc3CgljMCwyLjk3MiwyLjM1LDUuMzIyLDUuMzIy
+LDUuMzIyYzIuOTcyLDAsNS4zMjItMi4zNSw1LjMyMi01LjMyMnYtNy42M2gxMS4zNzFsLTAuMDA3
+LTAuMDM2CglDMzAuNTA1LDMyLjM3MiwzNy4yOTIsMjUuMzk2LDM3LjI5MiwxNi44MTZ6IE0yMC4y
+OTYsMjMuMjg0bDAtMC4wMDJoLTkuNjUxVjEwLjQ5MWg5LjQ2NGMzLjUzNSwwLDYuNDAxLDIuODY2
+LDYuNDAxLDYuNDAxCglDMjYuNTEsMjAuMzY0LDIzLjc0NCwyMy4xODQsMjAuMjk2LDIzLjI4NHoi
+Lz4KPC9zdmc+Cg==
+</content></attachment>
+<class>
+<name>XWiki.PiwikCode</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<domain>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>domain</name>
+<number>6</number>
+<picker>0</picker>
+<prettyName>Domain</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</domain>
+<method>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>method</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>Tracking method</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>javascript=Javascript Tracking</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</method>
+<multidomain>
+<customDisplay></customDisplay>
+<defaultValue>0</defaultValue>
+<disabled>0</disabled>
+<displayFormType>select</displayFormType>
+<displayType></displayType>
+<name>multidomain</name>
+<number>5</number>
+<prettyName>Multidomain</prettyName>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</multidomain>
+<siteid>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>siteid</name>
+<number>3</number>
+<picker>0</picker>
+<prettyName>Site ID (number)</prettyName>
+<size>5</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</siteid>
+<url>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>url</name>
+<number>2</number>
+<picker>0</picker>
+<prettyName>Piwik URL</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</url>
+<userTracking>
+<customDisplay></customDisplay>
+<defaultValue>0</defaultValue>
+<disabled>0</disabled>
+<displayFormType>select</displayFormType>
+<displayType></displayType>
+<name>userTracking</name>
+<number>4</number>
+<prettyName>User Tracking</prettyName>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</userTracking>
+</class>
+<object>
+<class>
+<name>XWiki.ConfigurableClass</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<codeToExecute>
+<disabled>0</disabled>
+<editor>---</editor>
+<name>codeToExecute</name>
+<number>7</number>
+<picker>0</picker>
+<prettyName>codeToExecute</prettyName>
+<rows>5</rows>
+<size>40</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</codeToExecute>
+<configurationClass>
+<disabled>0</disabled>
+<name>configurationClass</name>
+<number>3</number>
+<picker>0</picker>
+<prettyName>configurationClass</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</configurationClass>
+<configureGlobally>
+<defaultValue></defaultValue>
+<disabled>0</disabled>
+<displayFormType>checkbox</displayFormType>
+<displayType></displayType>
+<name>configureGlobally</name>
+<number>4</number>
+<prettyName>configureGlobally</prettyName>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</configureGlobally>
+<displayInSection>
+<disabled>0</disabled>
+<name>displayInSection</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>displayInSection</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</displayInSection>
+<heading>
+<disabled>0</disabled>
+<name>heading</name>
+<number>2</number>
+<picker>0</picker>
+<prettyName>heading</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</heading>
+<iconAttachment>
+<disabled>0</disabled>
+<name>iconAttachment</name>
+<number>8</number>
+<picker>0</picker>
+<prettyName>iconAttachment</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</iconAttachment>
+<linkPrefix>
+<disabled>0</disabled>
+<name>linkPrefix</name>
+<number>5</number>
+<picker>0</picker>
+<prettyName>linkPrefix</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</linkPrefix>
+<propertiesToShow>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>input</displayType>
+<multiSelect>1</multiSelect>
+<name>propertiesToShow</name>
+<number>6</number>
+<picker>0</picker>
+<prettyName>propertiesToShow</prettyName>
+<relationalStorage>1</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>20</size>
+<sort>none</sort>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values></values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</propertiesToShow>
+</class>
+<name>XWiki.PiwikCode</name>
+<number>0</number>
+<className>XWiki.ConfigurableClass</className>
+<guid>201024a3-1ce7-4cee-97b9-dea9741ad576</guid>
+<property>
+<codeToExecute>{{include reference='XWiki.PiwikCode' /}}</codeToExecute>
+</property>
+<property>
+<configurationClass></configurationClass>
+</property>
+<property>
+<configureGlobally>1</configureGlobally>
+</property>
+<property>
+<displayInSection>piwik</displayInSection>
+</property>
+<property>
+<heading></heading>
+</property>
+<property>
+<iconAttachment>piwik.svg</iconAttachment>
+</property>
+<property>
+<linkPrefix></linkPrefix>
+</property>
+<property>
+<propertiesToShow/>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.JavaScriptExtension</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<cache>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>cache</name>
+<number>5</number>
+<prettyName>Caching policy</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>long|short|default|forbid</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</cache>
+<code>
+<disabled>0</disabled>
+<name>code</name>
+<number>2</number>
+<prettyName>Code</prettyName>
+<rows>20</rows>
+<size>50</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</code>
+<name>
+<disabled>0</disabled>
+<name>name</name>
+<number>1</number>
+<prettyName>Name</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</name>
+<parse>
+<disabled>0</disabled>
+<displayFormType>select</displayFormType>
+<displayType>yesno</displayType>
+<name>parse</name>
+<number>4</number>
+<prettyName>Parse content</prettyName>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</parse>
+<use>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>use</name>
+<number>3</number>
+<prettyName>Use this extension</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>currentPage|onDemand|always</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</use>
+</class>
+<name>XWiki.PiwikCode</name>
+<number>0</number>
+<className>XWiki.JavaScriptExtension</className>
+<guid>1a78ac95-ede5-4443-bc8c-5d9f21f8462d</guid>
+<property>
+<cache>long</cache>
+</property>
+<property>
+<code>#set($piwikDoc = $xwiki.getDocument('XWiki.PiwikConfig'))
+#set($piwikObj = $piwikDoc.getObject('XWiki.PiwikCode'))
+#set($url = $piwikObj.getProperty('url').value)
+#set($siteid = $piwikObj.getProperty('siteid').value)
+#set($userTracking = $piwikObj.getProperty('userTracking').value)
+#set($multidomain = $piwikObj.getProperty('multidomain').value)
+#set($domain = $piwikObj.getProperty('domain').value)
+#if("$!{siteid}"!="" &amp;&amp; "$!{url}"!="")
+var _paq = _paq || [];
+#if($multidomain==1)
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.${domain}"]);
+  _paq.push(["setDomains", "*.${domain}"]);
+#end
+#if($userTracking==1)
+  _paq.push(['setCustomVariable', 1, "user", "${context.user}", "visit"]);
+  _paq.push(['setCustomVariable', 1, "user", "${context.user}", "page"]);
+ #end
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u= "${url}/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', ${siteid}]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+#end</code>
+</property>
+<property>
+<name>piwik</name>
+</property>
+<property>
+<parse>1</parse>
+</property>
+<property>
+<use>always</use>
+</property>
+</object>
+<content>{{velocity output="false"}}
+#macro(savePiwikData $url $siteid $method $userTracking $multidomain $domain)
+  #set ($piwikConfigDoc = $xwiki.getDocument('XWiki.PiwikConfig'))
+  #set ($piwikCodeDoc = $xwiki.getDocument('XWiki.PiwikCode'))
+  #set ($piwikObj = $piwikConfigDoc.getObject('XWiki.PiwikCode', true))
+  #set ($jsObj = $piwikCodeDoc.getObject('XWiki.JavaScriptExtension'))
+  #set ($discard = $piwikObj.set('url', $!url))
+  #set ($discard = $piwikObj.set('siteid', $!siteid))
+  #set ($discard = $piwikObj.set('method', $!method))
+  #set ($discard = $piwikObj.set('userTracking', $!userTracking))
+  #set ($discard = $piwikObj.set('multidomain', $!multidomain))
+  #set ($discard = $piwikObj.set('domain', $!domain))
+  $piwikConfigDoc.save()
+  #if ("$!jsObj" != "") 
+    #if ("$!siteid" != "" &amp;&amp; "$!url" != "")
+      #set ($discard = $jsObj.set('use', 'always'))
+    #else
+      #set ($discard = $jsObj.set('use', 'onDemand'))
+    #end
+    $piwikCodeDoc.save()
+  #end
+#end
+
+#macro(displayPiwikStatus)
+  #set ($piwikCodeDoc = $xwiki.getDocument('XWiki.PiwikCode'))
+  #set ($jsObj = $piwikCodeDoc.getObject('XWiki.JavaScriptExtension'))
+  #if ("$!jsObj" != "")
+    #if ("$!piwikCodeDoc.getValue('use', $jsObj)" == 'always')
+      {{info}}{{translation key="admin.piwik.running"/}}{{/info}}
+    #else
+      {{info}}{{translation key="admin.piwik.notrunning"/}}{{/info}}
+    #end
+  #else
+    {{error}}{{translation key="admin.piwik.noscript"/}}{{/error}}
+  #end
+
+ == {{translation key="admin.piwik.trackingcode"/}} ==
+
+   #set($jsDoc = $xwiki.getDocument("XWiki.PiwikCode"))
+   #set($ok = $jsDoc.use("XWiki.JavaScriptExtension"))
+   #set($code = $jsDoc.getValue("code"))
+   {{code}}
+   $jsDoc.getRenderedContent("{{velocity}}{{html wiki='false' clean='false'}}${code}{{/html}}{{/velocity}}", "xwiki/2.0")
+   {{/code}}
+#end
+{{/velocity}}
+
+{{velocity}}
+#if ($doc.name != 'XWikiPreferences' &amp;&amp; $xcontext.action == 'view')
+  $response.sendRedirect($xwiki.getURL('XWiki.XWikiPreferences', 'admin', 'section=piwik')) 
+#end
+#set ($piwikConfigDoc = $xwiki.getDocument('XWiki.PiwikConfig'))
+#set ($piwikCodeDoc = $xwiki.getDocument('XWiki.PiwikCode'))##
+#set ($piwikObj = $piwikConfigDoc.getObject('XWiki.PiwikCode', true))##
+#set ($piwikCodeClass = $piwikCodeDoc.xWikiClass)##
+#set ($urlPropertyClass = $piwikCodeClass.url)##
+#set ($siteidPropertyClass = $piwikCodeClass.siteid)##
+#set ($methodPropertyClass = $piwikCodeClass.method)##
+#set ($userTrackingPropertyClass = $piwikCodeClass.userTracking)##
+#set ($multidomainPropertyClass = $piwikCodeClass.multidomain)##
+#set ($domainPropertyClass = $piwikCodeClass.domain)##
+#if ($hasAdmin)##
+  #if ($request.action == 'save')##
+    #savePiwikData($request.piwik_url $request.piwik_siteid $request.piwik_method $request.piwik_userTracking $request.piwik_multidomain $request.piwik_domain)##
+  #end## save action
+#else## !hasAdmin
+  {{error}}{{translation key="needadminrights"/}}.{{/error}}
+#end##
+#displayPiwikStatus()
+
+{{html}}
+&lt;form action="" method="post" class="xform half"&gt;
+  &lt;dl&gt;
+    &lt;dt&gt;
+      &lt;label for="piwik_method"&gt;$!urlPropertyClass.translatedPrettyName&lt;/label&gt;
+      &lt;span class="xHint"&gt;$services.localization.render('admin.piwik.url.description', 'xhtml/1.0')&lt;/span&gt;
+    &lt;/dt&gt;
+    &lt;dd&gt;
+      $piwikConfigDoc.displayEdit($urlPropertyClass, 'piwik_', $piwikObj)
+    &lt;/dd&gt;
+    &lt;dt&gt;
+      &lt;label for="piwik_method"&gt;$!methodPropertyClass.translatedPrettyName&lt;/label&gt;
+      &lt;span class="xHint"&gt;$services.localization.render('admin.piwik.method.description', 'xhtml/1.0')&lt;/span&gt;
+    &lt;/dt&gt;
+    &lt;dd&gt;
+      $piwikConfigDoc.displayEdit($methodPropertyClass, 'piwik_', $piwikObj)
+    &lt;/dd&gt;
+    &lt;dt&gt;
+      &lt;label for="piwik_account"&gt;$!siteidPropertyClass.translatedPrettyName&lt;/label&gt;
+      &lt;span class="xHint"&gt;$services.localization.render('admin.piwik.siteid.description', 'xhtml/1.0')&lt;/span&gt;
+    &lt;/dt&gt;
+    &lt;dd&gt;
+      $piwikConfigDoc.displayEdit($siteidPropertyClass, 'piwik_', $piwikObj)
+    &lt;/dd&gt;
+    &lt;dt&gt;
+      &lt;label for="piwik_account"&gt;$!userTrackingPropertyClass.translatedPrettyName&lt;/label&gt;
+      &lt;span class="xHint"&gt;$services.localization.render('admin.piwik.userTracking.description', 'xhtml/1.0')&lt;/span&gt;
+    &lt;/dt&gt;
+    &lt;dd&gt;
+      $piwikConfigDoc.displayEdit($userTrackingPropertyClass, 'piwik_', $piwikObj)
+    &lt;/dd&gt;
+    &lt;dt&gt;
+      &lt;label for="piwik_account"&gt;$!multidomainPropertyClass.translatedPrettyName&lt;/label&gt;
+      &lt;span class="xHint"&gt;$services.localization.render('admin.piwik.multidomain.description', 'xhtml/1.0')&lt;/span&gt;
+    &lt;/dt&gt;
+    &lt;dd&gt;
+      $piwikConfigDoc.displayEdit($multidomainPropertyClass, 'piwik_', $piwikObj)
+    &lt;/dd&gt;
+   &lt;dt&gt;
+      &lt;label for="piwik_account"&gt;$!domainPropertyClass.translatedPrettyName&lt;/label&gt;
+      &lt;span class="xHint"&gt;$services.localization.render('admin.piwik.domain.description', 'xhtml/1.0')&lt;/span&gt;
+    &lt;/dt&gt;
+    &lt;dd&gt;
+      $piwikConfigDoc.displayEdit($domainPropertyClass, 'piwik_', $piwikObj)
+    &lt;/dd&gt;
+  &lt;/dl&gt;
+  &lt;p&gt;
+    &lt;input type="hidden" name="action" value="save"/&gt;
+    &lt;span class="buttonwrapper"&gt;
+      &lt;input type="submit" value="${services.localization.render('save')}" class="button" /&gt;
+    &lt;/span&gt;
+  &lt;/p&gt;
+&lt;/form&gt;
+{{/html}}
+
+{{/velocity}}</content></xwikidoc>
