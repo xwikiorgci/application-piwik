@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc>
+  <web>XWiki</web>
+  <name>PiwikTranslations</name>
+  <language>fr</language>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>1</translation>
+  <parent>XWiki.PiwikCode</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1388530800000</creationDate>
+  <date>1388530800000</date>
+  <contentUpdateDate>1388530800000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Piwik Translation File</title>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <content>admin.piwik=Piwik
+admin.piwik.notrunning=Piwik n'est pas actif
+admin.piwik.running=Piwik est actif
+admin.piwik.noscript=Extension Javascript non trouvée
+XWiki.PiwikCode_method=Méthode de Tracking
+XWiki.PiwikCode_url=URL Piwik
+XWiki.PiwikCode_siteid=ID du Site
+XWiki.PiwikCode_userTracking=Tracking des utilisateurs
+XWiki.PiwikCode_multidomain=Tracking Multi-domaine
+XWiki.PiwikCode_domain=URL du Domaine
+XWiki.PiwikCode_method_image=Tracking par Image
+XWiki.PiwikCode_method_javascript=Tracking par Javascript
+admin.piwik.method.description=Soit le mode Image est utilisé, soit le mode Javascript
+admin.piwik.url.description=L'URL de votre serveur Piwik (ou est installé piwik.php, ex: https://piwik.mydomain.com/)
+admin.piwik.siteid.description=L'ID du site à utiliser (cette valeur est nécéssaire pour activer Piwik)
+admin.piwik.userTracking.description=Activer le tracking des utilisateurs (compatible uniquement avec le mode Javascript)
+admin.piwik.multidomain.description=Activer le tracking Multi-domaine (*.mydomain.com)
+admin.piwik.domain.description=Specifier le domaine pour le tracking multidomain (ex: mydomain.com)
+admin.piwik.trackingcode=Code de Tracking qui sera inseré</content>
+</xwikidoc>
