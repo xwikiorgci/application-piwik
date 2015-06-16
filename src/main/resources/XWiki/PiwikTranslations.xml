@@ -19,29 +19,48 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
 -->
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>XWiki</web>
   <name>PiwikTranslations</name>
   <language/>
   <defaultLanguage>en</defaultLanguage>
   <translation>0</translation>
-  <parent>XWiki.PiwikCode</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1388530800000</creationDate>
-  <date>1388530800000</date>
-  <contentUpdateDate>1388530800000</contentUpdateDate>
+  <parent>XWiki.PiwikCode</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1434457555000</date>
+  <contentUpdateDate>1434457555000</contentUpdateDate>
   <version>1.1</version>
   <title>Piwik Translation File</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>true</hidden>
+  <content>admin.piwik=Piwik
+admin.piwik.notrunning=Piwik tracking is not running. Please fill in the "Piwik URL" and the "Site ID".
+admin.piwik.running=Piwik tracking is running.
+XWiki.PiwikCode_method=Tracking Method
+XWiki.PiwikCode_url=Piwik URL
+XWiki.PiwikCode_siteid=Site ID
+XWiki.PiwikCode_userTracking=User Tracking
+XWiki.PiwikCode_multidomain=Multidomain Tracking
+XWiki.PiwikCode_domain=Domain URL
+XWiki.PiwikCode_method_image=Image Tracking
+XWiki.PiwikCode_method_javascript=Javascript Tracking
+admin.piwik.method.description=Either uses Javascript or an Image to insert the tracking code
+admin.piwik.url.description=The URL of your tracking code (where piwik.php is located, ex: https://piwik.mydomain.com/)
+admin.piwik.siteid.description=The site id to use (needed to activate tracking)
+admin.piwik.userTracking.description=Activate user ID tracking (only compatible with Javascript Tracking)
+admin.piwik.multidomain.description=Activate Multi-domain tracking (*.mydomain.com)
+admin.piwik.domain.description=Specify the domain of the multidomain tracking (ex: mydomain.com)
+admin.piwik.trackingcode=Tracking code that will be included</content>
   <object>
+    <name>XWiki.PiwikTranslations</name>
+    <number>0</number>
+    <className>XWiki.TranslationDocumentClass</className>
+    <guid>6049169b-4bc6-46a9-8983-60231409b4e1</guid>
     <class>
       <name>XWiki.TranslationDocumentClass</name>
       <customClass/>
@@ -61,38 +80,15 @@
         <prettyName>Scope</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>GLOBAL|WIKI|USER|ON_DEMAND</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </scope>
     </class>
-    <name>XWiki.PiwikTranslations</name>
-    <number>0</number>
-    <className>XWiki.TranslationDocumentClass</className>
-    <guid>6049169b-4bc6-46a9-8983-60231409b4e1</guid>
     <property>
       <scope>GLOBAL</scope>
     </property>
   </object>
-  <content>admin.piwik=Piwik
-admin.piwik.notrunning=Piwik tracking is not running
-admin.piwik.running=Piwik tracking is running
-admin.piwik.noscript=Could not find Javascript extension
-XWiki.PiwikCode_method=Tracking Method
-XWiki.PiwikCode_url=Piwik URL
-XWiki.PiwikCode_siteid=Site ID
-XWiki.PiwikCode_userTracking=User Tracking
-XWiki.PiwikCode_multidomain=Multidomain Tracking
-XWiki.PiwikCode_domain=Domain URL
-XWiki.PiwikCode_method_image=Image Tracking
-XWiki.PiwikCode_method_javascript=Javascript Tracking
-admin.piwik.method.description=Either uses Javascript or and Image to insert the tracking code
-admin.piwik.url.description=The URL of your tracking code (where piwik.php is located, ex: https://piwik.mydomain.com/)
-admin.piwik.siteid.description=The site id to use (need to activate tracking)
-admin.piwik.userTracking.description=Activate user ID tracking (only compatible with Javascript Tracking)
-admin.piwik.multidomain.description=Activate Multi-domain tracking (*.mydomain.com)
-admin.piwik.domain.description=Specify the domain of the multidomain tracking (ex: mydomain.com)
-admin.piwik.trackingcode=Tracking code that will be included</content>
 </xwikidoc>
