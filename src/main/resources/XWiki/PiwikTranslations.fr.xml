@@ -40,7 +40,7 @@
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
-  <hidden>false</hidden>
+  <hidden>true</hidden>
   <content>admin.piwik=Piwik
 admin.piwik.notrunning=Piwik n'est pas actif
 admin.piwik.running=Piwik est actif
