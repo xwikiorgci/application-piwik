@@ -30,7 +30,7 @@
   <artifactId>application-piwik-extension</artifactId>
   <version>1.2-SNAPSHOT</version>
   <packaging>xar</packaging>
-  <name>XWiki Application - Piwik Extension</name>
+  <name>Piwik Application</name>
   <description>Extension to setup Piwik Tracking in XWiki</description>
   <developers>
     <developer>
