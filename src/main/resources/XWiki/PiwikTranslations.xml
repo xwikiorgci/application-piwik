@@ -88,7 +88,7 @@ admin.piwik.trackingcode=Tracking code that will be included</content>
       </scope>
     </class>
     <property>
-      <scope>GLOBAL</scope>
+      <scope>WIKI</scope>
     </property>
   </object>
 </xwikidoc>
