@@ -32,6 +32,12 @@
   <packaging>xar</packaging>
   <name>Piwik Application</name>
   <description>Extension to setup Piwik Tracking in XWiki</description>
+  <scm>
+    <connection>scm:git:git://github.com/xwiki-contrib/application-piwik.git</connection>
+    <developerConnection>scm:git:git@github.com:xwiki-contrib/application-piwik.git</developerConnection>
+    <url>https://github.com/xwiki-contrib/application-piwik/tree/master</url>
+    <tag>HEAD</tag>
+  </scm>
   <developers>
     <developer>
       <id>ldubost</id>
