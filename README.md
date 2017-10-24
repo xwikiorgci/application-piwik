@@ -11,4 +11,4 @@ Extension that adds Piwik tracking to an XWiki instance
 * License: LGPL 2.1.
 * [Translations](http://l10n.xwiki.org/xwiki/bin/view/Contrib/PiwikApplication)
 * Sonar Dashboard: N/A
-* Continuous Integration Status: N/A
+* Continuous Integration Status: [![Build Status](http://ci.xwiki.org/view/Contrib/job/XWiki%20Contrib/job/application-piwik/job/master/badge/icon)](http://ci.xwiki.org/job/XWiki%20Contrib/job/application-piwik/job/master/)

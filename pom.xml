@@ -24,7 +24,7 @@
   <parent>
     <groupId>org.xwiki.contrib</groupId>
     <artifactId>parent-platform</artifactId>
-    <version>8.4-8</version>
+    <version>5.4</version>
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>application-piwik-extension</artifactId>
@@ -40,8 +40,7 @@
   </developers>
   <properties>
     <xwiki.release.jira.skip>false</xwiki.release.jira.skip>
-    <xwiki.issueManagement.system>jira</xwiki.issueManagement.system>
-    <xwiki.issueManagement.url>https://jira.xwiki.org/browse/PIWIK</xwiki.issueManagement.url>
+    <xwiki.issueManagement.jira.id>PIWIK</xwiki.issueManagement.jira.id>
   </properties>
   <dependencies>
     <dependency>
