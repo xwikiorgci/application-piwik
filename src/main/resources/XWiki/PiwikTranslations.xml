@@ -36,7 +36,7 @@
   <title>Piwik Translation File</title>
   <comment/>
   <minorEdit>false</minorEdit>
-  <syntaxId>xwiki/2.1</syntaxId>
+  <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
   <content>admin.piwik=Piwik
 admin.piwik.notrunning=Piwik tracking is not running. Please fill in the "Piwik URL" and the "Site ID".
