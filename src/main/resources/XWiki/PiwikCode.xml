@@ -563,8 +563,8 @@ var _paq = _paq || [];
   _paq.push(["setDomains", "*.${domain}"]);
 #end
 #if($userTracking==1)
-  _paq.push(['setCustomVariable', 1, "user", "${context.user}", "visit"]);
-  _paq.push(['setCustomVariable', 1, "user", "${context.user}", "page"]);
+  _paq.push(['setCustomVariable', 1, "user", "${xcontext.user}", "visit"]);
+  _paq.push(['setCustomVariable', 1, "user", "${xcontext.user}", "page"]);
  #end
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
