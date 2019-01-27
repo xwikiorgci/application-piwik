@@ -565,6 +565,7 @@ var _paq = _paq || [];
 #if($userTracking==1)
   _paq.push(['setCustomVariable', 1, "user", "${xcontext.user}", "visit"]);
   _paq.push(['setCustomVariable', 1, "user", "${xcontext.user}", "page"]);
+  _paq.push(['setUserId', "${xcontext.user}"]);
  #end
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
