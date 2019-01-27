@@ -548,7 +548,10 @@ $UIDoc.getRenderedContent("{{velocity}}{{html wiki='false' clean='false'}}${code
       <content>{{velocity}}
 {{html clean="false"}}
 &lt;script type="text/javascript"&gt;
-#set($piwikDoc = $xwiki.getDocument('xwiki:XWiki.PiwikConfig'))
+#set($piwikDoc = $xwiki.getDocument('XWiki.PiwikConfig'))
+#if($piwikDoc.isNew())
+  #set($piwikDoc = $xwiki.getDocument('xwiki:XWiki.PiwikConfig'))
+#end
 #set($piwikObj = $piwikDoc.getObject('XWiki.PiwikCode'))
 #set($url = $piwikObj.getProperty('url').value)
 #set($siteid = $piwikObj.getProperty('siteid').value)
