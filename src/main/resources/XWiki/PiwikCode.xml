@@ -51,9 +51,21 @@
   #set ($discard = $piwikObj.set('domain', $!domain))
   $piwikConfigDoc.save()
 #end
+#if ($hasAdmin)
+  #if ($request.action == 'save')
+    #savePiwikData($request.piwik_url $request.piwik_siteid $request.piwik_method $request.piwik_userTracking $request.piwik_multidomain $request.piwik_domain)
+    #set($discard = $response.sendRedirect($doc.getURL($xcontext.action, $request.queryString)))
+    #stop
+  #end## save action
+#end##
+
 {{/velocity}}
 
 {{velocity}}
+#if (!$hasAdmin)##
+  {{error}}{{translation key="needadminrights"/}}.{{/error}}
+#end##
+
 ## Display Piwik Status
 #if ("$!siteid" != "" &amp;&amp; "$!piwikUrl" != "")
 {{success}}{{translation key="admin.piwik.running"/}}{{/success}}
@@ -84,13 +96,6 @@ $UIDoc.getRenderedContent("{{velocity}}{{html wiki='false' clean='false'}}${code
 #set ($userTrackingPropertyClass = $piwikCodeClass.userTracking)##
 #set ($multidomainPropertyClass = $piwikCodeClass.multidomain)##
 #set ($domainPropertyClass = $piwikCodeClass.domain)##
-#if ($hasAdmin)##
-  #if ($request.action == 'save')##
-    #savePiwikData($request.piwik_url $request.piwik_siteid $request.piwik_method $request.piwik_userTracking $request.piwik_multidomain $request.piwik_domain)##
-  #end## save action
-#else## !hasAdmin
-  {{error}}{{translation key="needadminrights"/}}.{{/error}}
-#end##
 
 {{html}}
 &lt;form action="" method="post" class="xform half"&gt;
