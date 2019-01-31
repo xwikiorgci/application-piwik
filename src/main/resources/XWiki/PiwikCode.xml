@@ -42,7 +42,6 @@
   <content>{{velocity output="false"}}
 #macro(savePiwikData $url $siteid $method $userTracking $multidomain $domain)
   #set ($piwikConfigDoc = $xwiki.getDocument('XWiki.PiwikConfig'))
-  #set ($piwikCodeDoc = $xwiki.getDocument('XWiki.PiwikCode'))
   #set ($piwikObj = $piwikConfigDoc.getObject('XWiki.PiwikCode', true))
   #set ($discard = $piwikObj.set('url', $!url))
   #set ($discard = $piwikObj.set('siteid', $!siteid))
@@ -56,7 +55,7 @@
 
 {{velocity}}
 ## Display Piwik Status
-#if ("$!siteid" != "" &amp;&amp; "$!url" != "")
+#if ("$!siteid" != "" &amp;&amp; "$!piwikUrl" != "")
 {{success}}{{translation key="admin.piwik.running"/}}{{/success}}
 #else
 {{error}}{{translation key="admin.piwik.notrunning"/}}{{/error}}
@@ -73,7 +72,7 @@ $UIDoc.getRenderedContent("{{velocity}}{{html wiki='false' clean='false'}}${code
 
 {{velocity}}
 #if ($doc.name != 'XWikiPreferences' &amp;&amp; $xcontext.action == 'view')
-  $response.sendRedirect($xwiki.getURL('XWiki.XWikiPreferences', 'admin', 'section=piwik')) 
+  $response.sendRedirect($xwiki.getURL('XWiki.XWikiPreferences', 'admin', 'section=piwik'))
 #end
 #set ($piwikConfigDoc = $xwiki.getDocument('XWiki.PiwikConfig'))
 #set ($piwikCodeDoc = $xwiki.getDocument('XWiki.PiwikCode'))##
@@ -548,17 +547,22 @@ $UIDoc.getRenderedContent("{{velocity}}{{html wiki='false' clean='false'}}${code
       <content>{{velocity}}
 {{html clean="false"}}
 &lt;script type="text/javascript"&gt;
-#set($piwikDoc = $xwiki.getDocument('XWiki.PiwikConfig'))
-#if($piwikDoc.isNew())
-  #set($piwikDoc = $xwiki.getDocument('xwiki:XWiki.PiwikConfig'))
-#end
+#macro(loadMatomoConfig $configPath)
+#set($piwikDoc = $xwiki.getDocument($configPath))
 #set($piwikObj = $piwikDoc.getObject('XWiki.PiwikCode'))
-#set($url = $piwikObj.getProperty('url').value)
-#set($siteid = $piwikObj.getProperty('siteid').value)
-#set($userTracking = $piwikObj.getProperty('userTracking').value)
-#set($multidomain = $piwikObj.getProperty('multidomain').value)
-#set($domain = $piwikObj.getProperty('domain').value)
-#if("$!{siteid}"!="" &amp;&amp; "$!{url}"!="")
+#if($piwikObj)
+  #set($piwikUrl = $piwikObj.getProperty('url').value)
+  #set($siteid = $piwikObj.getProperty('siteid').value)
+  #set($userTracking = $piwikObj.getProperty('userTracking').value)
+  #set($multidomain = $piwikObj.getProperty('multidomain').value)
+  #set($domain = $piwikObj.getProperty('domain').value)
+#end
+#end
+#loadMatomoConfig('XWiki.PiwikConfig')
+#if(!$xcontext.isMainWiki() &amp;&amp; ("$!{siteid}" == "" || "$!{piwikUrl}" == ""))
+  #loadMatomoConfig('xwiki:XWiki.PiwikConfig')
+#end
+#if("$!{siteid}" != "" &amp;&amp; "$!{piwikUrl}" != "")
 var _paq = _paq || [];
 #if($multidomain==1)
   _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
@@ -566,14 +570,14 @@ var _paq = _paq || [];
   _paq.push(["setDomains", "*.${domain}"]);
 #end
 #if($userTracking==1)
-  _paq.push(['setCustomVariable', 1, "user", "${xcontext.user}", "visit"]);
-  _paq.push(['setCustomVariable', 1, "user", "${xcontext.user}", "page"]);
-  _paq.push(['setUserId', "${xcontext.user}"]);
+  _paq.push(['setCustomVariable', 1, "user", "${escapetool.javascript($xcontext.user)}", "visit"]);
+  _paq.push(['setCustomVariable', 1, "user", "${escapetool.javascript($xcontext.user)}", "page"]);
+  _paq.push(['setUserId', "${escapetool.javascript($xcontext.user)}"]);
  #end
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u= "${url}/";
+    var u="${piwikUrl}/";
     _paq.push(['setTrackerUrl', u+'piwik.php']);
     _paq.push(['setSiteId', ${siteid}]);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
