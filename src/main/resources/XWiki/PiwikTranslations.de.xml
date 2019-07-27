@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc version="1.1">
+  <web>XWiki</web>
+  <name>PiwikTranslations</name>
+  <language>de</language>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>1</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <creationDate>1388530800000</creationDate>
+  <parent>XWiki.PiwikCode</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1434457555000</date>
+  <contentUpdateDate>1434457555000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Piwik Translation File</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>plain/1.0</syntaxId>
+  <hidden>true</hidden>
+  <content>admin.piwik=Piwik / Matomo
+admin.piwik.notrunning=Das Piwik Tracking läuft nicht. Bitte füllen Sie die Felder „URL zum Tracking“ und „ID der Website“ aus.
+admin.piwik.running=Piwik Tracking läuft.
+XWiki.PiwikCode_method=Tracking Verfahren
+XWiki.PiwikCode_url=URL des Piwik Servers
+XWiki.PiwikCode_siteid=ID der Website
+XWiki.PiwikCode_userTracking=Nutzer tracken
+XWiki.PiwikCode_multidomain=Multi-Domain Tracking
+XWiki.PiwikCode_domain=URL der Domain
+XWiki.PiwikCode_method_image=Tracking mittels Bilder
+XWiki.PiwikCode_method_javascript=Tracking mittels Javascript
+admin.piwik.method.description=Verende entweder Javascript oder ein Bild, um den Tracking Code einzufügen
+admin.piwik.url.description=Die URL zu dem Tracking Code (d.h. wo die piwik.php untergebracht ist, z.B. https://piwik.meine-domain.de/)
+admin.piwik.siteid.description=Die ID der Website („Site ID“) - wird benötigt, um das Tracking zu aktivieren
+admin.piwik.userTracking.description=Aktivieren der User ID Trackings (funktioniert nur bei Tracking mittels Javascript)
+admin.piwik.multidomain.description=Aktivieren des Multi-Domain Trackings (*.meine-domain.de)
+admin.piwik.domain.description=Geben Sie bitte die Domain an, die für das Multi-Domain Tracking verwendet wird (z.B. meine-domain.de)
+admin.piwik.trackingcode=Der erzeugte Code, der für das Tracking eingefügt wird</content>
+  
+</xwikidoc>
