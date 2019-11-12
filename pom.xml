@@ -30,8 +30,8 @@
   <artifactId>application-piwik-extension</artifactId>
   <version>1.4-SNAPSHOT</version>
   <packaging>xar</packaging>
-  <name>Piwik Application</name>
-  <description>Extension to setup Piwik Tracking in XWiki</description>
+  <name>Matomo Application</name>
+  <description>Extension to setup Matomo Tracking in XWiki</description>
   <scm>
     <connection>scm:git:git://github.com/xwiki-contrib/application-piwik.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/application-piwik.git</developerConnection>
