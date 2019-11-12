@@ -28,7 +28,7 @@
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>application-piwik-extension</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.3.1</version>
   <packaging>xar</packaging>
   <name>Matomo Application</name>
   <description>Extension to setup Matomo Tracking in XWiki</description>
@@ -36,7 +36,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/application-piwik.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/application-piwik.git</developerConnection>
     <url>https://github.com/xwiki-contrib/application-piwik/tree/master</url>
-    <tag>HEAD</tag>
+    <tag>application-piwik-extension-1.3.1</tag>
   </scm>
   <developers>
     <developer>
