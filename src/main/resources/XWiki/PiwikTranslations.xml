@@ -38,11 +38,11 @@
   <minorEdit>false</minorEdit>
   <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
-  <content>admin.piwik=Piwik
-admin.piwik.notrunning=Piwik tracking is not running. Please fill in the "Piwik URL" and the "Site ID".
-admin.piwik.running=Piwik tracking is running.
+  <content>admin.piwik=Matomo
+admin.piwik.notrunning=Matomo tracking is not running. Please fill in the "Matomo URL" and the "Site ID".
+admin.piwik.running=Matomo tracking is running.
 XWiki.PiwikCode_method=Tracking Method
-XWiki.PiwikCode_url=Piwik URL
+XWiki.PiwikCode_url=Matomo URL
 XWiki.PiwikCode_siteid=Site ID
 XWiki.PiwikCode_userTracking=User Tracking
 XWiki.PiwikCode_multidomain=Multidomain Tracking
@@ -50,7 +50,7 @@ XWiki.PiwikCode_domain=Domain URL
 XWiki.PiwikCode_method_image=Image Tracking
 XWiki.PiwikCode_method_javascript=Javascript Tracking
 admin.piwik.method.description=Either uses Javascript or an Image to insert the tracking code
-admin.piwik.url.description=The URL of your tracking code (where piwik.php is located, ex: https://piwik.mydomain.com/)
+admin.piwik.url.description=The URL of your tracking code (where matomo.php is located, ex: https://matomo.mydomain.com/)
 admin.piwik.siteid.description=The site id to use (needed to activate tracking)
 admin.piwik.userTracking.description=Activate user ID tracking (only compatible with Javascript Tracking)
 admin.piwik.multidomain.description=Activate Multi-domain tracking (*.mydomain.com)

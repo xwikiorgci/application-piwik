@@ -38,11 +38,11 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>true</hidden>
-  <content>admin.piwik=Piwik
-admin.piwik.notrunning=Piwik n'est pas actif. S'il vous plaît remplir le "Piwik URL" et le "Site ID".
-admin.piwik.running=Piwik est actif.
+  <content>admin.piwik=Matomo
+admin.piwik.notrunning=Matomo n'est pas actif. S'il vous plaît remplir le "Matomo URL" et le "Site ID".
+admin.piwik.running=Matomo est actif.
 XWiki.PiwikCode_method=Méthode de Tracking
-XWiki.PiwikCode_url=URL Piwik
+XWiki.PiwikCode_url=URL Matomo
 XWiki.PiwikCode_siteid=ID du Site
 XWiki.PiwikCode_userTracking=Tracking des utilisateurs
 XWiki.PiwikCode_multidomain=Tracking Multi-domaine
@@ -50,8 +50,8 @@ XWiki.PiwikCode_domain=URL du Domaine
 XWiki.PiwikCode_method_image=Tracking par Image
 XWiki.PiwikCode_method_javascript=Tracking par Javascript
 admin.piwik.method.description=Soit le mode Image est utilisé, soit le mode Javascript
-admin.piwik.url.description=L'URL de votre serveur Piwik (ou est installé piwik.php, ex: https://piwik.mydomain.com/)
-admin.piwik.siteid.description=L'ID du site à utiliser (cette valeur est nécéssaire pour activer Piwik)
+admin.piwik.url.description=L'URL de votre serveur Matomo  (ou est installé matomo.php, ex: https://matomo.mydomain.com/)
+admin.piwik.siteid.description=L'ID du site à utiliser (cette valeur est nécéssaire pour activer Matomo)
 admin.piwik.userTracking.description=Activer le tracking des utilisateurs (compatible uniquement avec le mode Javascript)
 admin.piwik.multidomain.description=Activer le tracking Multi-domaine (*.mydomain.com)
 admin.piwik.domain.description=Specifier le domaine pour le tracking multidomain (ex: mydomain.com)
