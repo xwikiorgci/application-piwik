@@ -4,7 +4,7 @@ Extension that adds Piwik tracking to an XWiki instance
 
 * Project Lead: [Ludovic Dubost](http://www.xwiki.org/xwiki/bin/view/XWiki/ludovic)
 * [Documentation & Download](http://extensions.xwiki.org/xwiki/bin/view/Extension/Piwiki%20Integration)
-* [Issue Tracker](https://jira.xwiki.org/browse/PIWIK)
+* [Issue Tracker](https://jira.xwiki.org/browse/XMATOMO)
 * Communication: [Mailing List](http://dev.xwiki.org/xwiki/bin/view/Community/MailingLists>), [IRC](http://dev.xwiki.org/xwiki/bin/view/Community/IRC>)
 * [Development Practices](http://dev.xwiki.org/xwiki/bin/view/Community/DevelopmentPractices)
 * Minimal XWiki version supported: XWiki 5.4.4
