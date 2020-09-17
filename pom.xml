@@ -46,7 +46,7 @@
   </developers>
   <properties>
     <xwiki.release.jira.skip>false</xwiki.release.jira.skip>
-    <xwiki.issueManagement.jira.id>Matomo</xwiki.issueManagement.jira.id>
+    <xwiki.issueManagement.jira.id>XMATOMO</xwiki.issueManagement.jira.id>
   </properties>
   <dependencies>
     <dependency>
